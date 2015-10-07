@@ -23,6 +23,7 @@ var app = express();
 
 app.use(bodyParser.urlencoded());
 
+// vuln SQL Injection
 app.post('/login', function (req, res) {
 
     var user = req.body.user;
