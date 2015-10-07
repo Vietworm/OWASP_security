@@ -1,0 +1,30 @@
+{
+  "name": "owasp_security",
+  "version": "1.0.0",
+  "description": "OWASP security",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vietworm/OWASP_security.git"
+  },
+  "keywords": [
+    "OWASP",
+    "Security",
+    "NodeJS"
+  ],
+  "author": "Vietworm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Vietworm/OWASP_security/issues"
+  },
+  "homepage": "https://github.com/Vietworm/OWASP_security#readme",
+  "dependencies": {
+    "body-parser": "^1.14.1",
+    "express": "^4.13.3",
+    "mysql": "^2.9.0"
+  }
+}
